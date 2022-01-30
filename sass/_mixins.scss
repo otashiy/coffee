@@ -1,0 +1,13 @@
+@mixin reset-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+}
+@mixin reset-link {
+    text-transform: uppercase;
+    font-family: 'Barlow','Arial',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}

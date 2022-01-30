@@ -1,0 +1,26 @@
+.header {
+    background-color:  #F2F2F2;
+    padding: 44px 0px 45px 0px;
+}
+.header__nav-list {
+    @include reset-list;
+    display: flex;
+}
+.header__item {
+    margin-right: 33px;
+}
+.header__item:last-child {
+    margin: 0;
+}
+.header__item-link {
+    @include reset-link;
+    color: $link-color;
+}
+.header__logo {
+    display: block;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}

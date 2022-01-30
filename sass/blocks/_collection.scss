@@ -1,0 +1,35 @@
+.collection {
+    padding: 136px 0px 200px 0px;
+
+}
+.collection__container {
+    width: 1111px;
+    margin: 0 auto;
+}
+.collection__title {
+    margin: 0;
+    padding: 0;
+    font-size: 150px;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+}
+.collection__list {
+    @include reset-list;
+    display: flex;
+    justify-content: space-between;
+}
+.collection__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 255px;
+}
+.collection__item-img {
+    margin-bottom: 72px;
+}
+.collection__item-title {
+    text-align: center;
+}
+.collection__description {
+    text-align: center;
+}

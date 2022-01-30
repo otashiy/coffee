@@ -1,0 +1,214 @@
+body {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  font-family: 'Barlow','Arial',sans-serif;
+  font-size: 12px;
+  background: #F2F2F2;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url("../fonts/Fraunces-9ptBlackItalic.woff2") format("woff2"), url("../fonts/Fraunces-9ptBlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url("../fonts/Fraunces-9ptBlack.woff2") format("woff2"), url("../fonts/Fraunces-9ptBlack.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+.header {
+  background-color: #F2F2F2;
+  padding: 44px 0px 45px 0px;
+}
+
+.header__nav-list {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: flex;
+}
+
+.header__item {
+  margin-right: 33px;
+}
+
+.header__item:last-child {
+  margin: 0;
+}
+
+.header__item-link {
+  text-transform: uppercase;
+  font-family: 'Barlow','Arial',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #83888f;
+}
+
+.header__logo {
+  display: block;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.intro {
+  position: relative;
+}
+
+.intro__container {
+  background-image: url(../img/intro-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+  width: 1280px;
+  height: 600px;
+  z-index: -1;
+}
+
+.intro__title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  width: 550px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 32px;
+  color: rgba(254, 252, 247, 0.8);
+}
+
+.intro__desc {
+  padding: 0;
+  margin: 0;
+  color: rgba(254, 252, 247, 0.8);
+  font-family: 'Barlow','Arial',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 56px;
+}
+
+.great-content {
+  width: 493px;
+  color: rgba(254, 252, 247, 0.8);
+  padding: 117px 85px;
+}
+
+.main-btn {
+  padding: 0;
+  display: block;
+  background-color: #0E8784;
+  padding: 15px 31px;
+  color: rgba(254, 252, 247, 0.8);
+  font-family: 'Fraunces','Arial',sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+  border-color: #0E8784;
+  border-radius: 6px;
+}
+
+.collection {
+  padding: 136px 0px 200px 0px;
+}
+
+.collection__container {
+  width: 1111px;
+  margin: 0 auto;
+}
+
+.collection__title {
+  margin: 0;
+  padding: 0;
+  font-size: 150px;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 252, 247, 0.0001)), to(#FEFCF7));
+  background-image: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+}
+
+.collection__list {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.collection__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 255px;
+}
+
+.collection__item-img {
+  margin-bottom: 72px;
+}
+
+.collection__item-title {
+  text-align: center;
+}
+
+.collection__description {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
