@@ -1,0 +1,46 @@
+
+.performance__ontainer {
+
+}
+.performance__list {
+    @include reset-list;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+}
+.performance__item {
+    max-width: 285px;
+     &:not(:last-child) {
+         margin-right: 95px;
+     }
+     
+}
+
+.performance__discription {
+    font-family: 'Barlow','Arial',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    
+}
+.performance__wrapper {
+    display: flex;
+}
+.performance__item-title {
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+.performance__item-spn {
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
